@@ -1,0 +1,5 @@
+Abstraction is a fundamental concept of object-oriented programming that helps to reduce complexity by hiding implementation details and exposing only the essential features of an object. It is achieved by using abstract classes and interfaces.
+
+In this example, we have an abstract class called Vehicle that has a make, model, and year, and an abstract method called start. We also have an interface called Drivable that defines two methods, accelerate and brake. We have two subclasses called Car and Motorcycle that extend the Vehicle class and implement the Drivable interface.
+
+By using an abstract class and an interface, we can define a common interface for all vehicles, but we can also leave the implementation of the start method up to the specific vehicle subclasses. Similarly, we can define a common interface for all drivable vehicles, but we can also leave the implementation of the accelerate and brake methods up to the specific drivable vehicle subclasses.
