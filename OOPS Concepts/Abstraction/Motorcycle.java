@@ -1,5 +1,13 @@
+/* 
+Implements and Extends - both the keywords alogn with the concept of inheritance. 
+Implements keyword is associated with abstracton and used to define a contract.  It means we are
+using the elements of a Java interface in your class.
+Extends is used to extends a class's existing functionality. It means that we are creating a 
+subclass of the base class we are extending.
 
-
+** We can only extend one class in our child class but we can implement as many interfaces as we 
+would like. ANd we need to declare extends before implements.
+*/
 public class Motorcycle extends Vehicle implements Drivable {
     private int currentSpeed;
 
